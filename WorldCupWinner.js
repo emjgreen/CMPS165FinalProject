@@ -89,7 +89,7 @@ function program(){
                 .duration(500)
                 .ease("linear")
                 .style("opacity", .9);
-            div .html(d.player + "<br/>" + "Nationality: " +d.nation + "<br/>" + "Team: " + d.team + "<br/><br/>" + "Age: " + d.age +",  " + "Height: " + d.feet + "'" + d.inches + "''" + ",  " + "Weight: " + d.weight + "<br/>")	
+            div .html(d.player + "<br/>" + "Nationality: " +d.nation + "<br/>" + "Team: " + d.team + "<br/><br/>" + "Age: " + d.age +",  " + "Height: " + d.feet + "'" + d.inches + "''" + ",  " + "Weight: " + d.weight + "<br/>" + "Year Earnings: "+d.yearEarnings+ "M")	
                 .style("left", (d3.event.pageX) + "px")		
                 .style("top", (d3.event.pageY - 30) + "px");
         })
@@ -122,7 +122,7 @@ function program(){
                 .duration(500)
                 .ease("linear")
                 .style("opacity", .9);
-            div .html(d.player + "<br/>" + "Nationality: " +d.nation + "<br/>" + "Team: " + d.team + "<br/><br/>" + "Age: " + d.age +",  " + "Height: " + d.feet + "'" + d.inches + "''" + ",  " + "Weight: " + d.weight + "<br/>")	
+            div .html(d.player + "<br/>" + "Nationality: " +d.nation + "<br/>" + "Team: " + d.team + "<br/><br/>" + "Age: " + d.age +",  " + "Height: " + d.feet + "'" + d.inches + "''" + ",  " + "Weight: " + d.weight + "<br/>" + "Year Earnings: "+d.yearEarnings+ "M")	
                 .style("left", (d3.event.pageX) + "px")		
                 .style("top", (d3.event.pageY - 30) + "px");
         })
